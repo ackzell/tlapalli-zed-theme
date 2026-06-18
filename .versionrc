@@ -1,0 +1,9 @@
+{
+  "bumpFiles": [
+    "package.json",
+    {
+      "filename": "extension/extension.toml",
+      "updater": "scripts/version-updater.cjs"
+    }
+  ]
+}

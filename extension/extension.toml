@@ -1,0 +1,8 @@
+id = "tlapalli-theme"
+name = "Tlapalli"
+version = "1.2.0"
+schema_version = 1
+authors = ["ackzell"]
+description = "Tlah-PAH-lee means color in Náhuatl. Monochromatic theme with dark and light colored variations. Inspired by minerals found in Mexico"
+repository = "https://github.com/ackzell/tlapalli-zed-theme"
+themes = ["themes/tlapalli.json"]
