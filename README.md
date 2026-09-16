@@ -1,8 +1,121 @@
 # Tlapalli Zed Theme
 
-A monochromatic theme with 8 dark and 8 light colored variations. Inspired by minerals found in Mexico.
+> **[tlah-PAH-lee](https://nahuatl.wired-humanities.org/content/tlapalli)** in Nahuatl means color
 
-**This repo** — the packaging and release tooling for the [Tlapalli Zed extension](https://github.com/ackzell/tlapalli-zed-theme). Theme colors are maintained upstream in [tlapalli-vscode-theme](https://github.com/ackzell/tlapalli-vscode-theme).
+<p align="center">
+  <br>
+  <img src="./docs/images/logo.jpg" alt="tlapalli-vscode-theme logo" width="300" />
+</p>
+
+<hr>
+
+<h3 align="center">Zed Extensions</h3>
+<p align="center">
+  <a href="https://zed.dev/extensions/tlapalli-theme">
+    <img src="https://zedbadge.dev/chart/tlapalli-theme.svg" alt="Version">
+  </a>
+</p>
+
+<p align="center">
+    Wanna see the origin story?
+    <br>
+    <a href="https://youtu.be/BhawWj6iMYQ">
+        <img width="500" alt="thumbnail for the youtube video" src="https://img.youtube.com/vi/BhawWj6iMYQ/0.jpg" />
+    </a>
+</p>
+
+A collection of monochromatic dark and light themes in different hues. Each theme uses lightness and font styles (actually, just _italic_) to distinguish tokens, rather than relying on multiple colors to do the job.
+
+Dark themes are especially useful (to me) when working in a low light environment. The idea is not to have excessive contrast on the text, but also be able to have a darker background.
+
+<img width="100%" alt="perspective all compressed" src="https://github.com/user-attachments/assets/9274f25b-5ee8-4078-b131-d21311bc97a7" />
+
+Fun fact: these are all minerals that you can find in Mexico 🤓
+
+## Dark
+
+### 00: Obsidian
+
+The original idea was to create this theme _only_, which was based on the [VSCode  Monochrome](https://github.com/anotherglitchinthematrix/monochrome) theme. Though many tweaks have been applied to get it just the way I like them.
+<img width="100%" alt="obsidian" src="./docs/images/obsidianDark.png" />
+
+### 01: Gold
+
+A kind-of-yellow sort-of-amber like the one I used to work with when I started with computers. Not quite as bright IMO, so gold it is.
+<img width="100%" alt="gold" src="./docs/images/goldDark.png" />
+
+### 02: Turquoise
+
+This was the first one I worked on as a variant for Obsidian. I really like having this in the options and will be using it quite often.
+<img width="100%" alt="turquoise" src="./docs/images/turquoiseDark.png" />
+
+### 03: Quartz
+
+I am not a huge fan of pink for the theme, but I was already on a roll trying with the different variants, so why not having it as well?
+<img width="100%" alt="quartz" src="./docs/images/quartzDark.png" />
+
+### 04: Lapis Lazuli
+
+Not as bright as a sapphire blue, but still nice on _my_ eyes.
+<img width="100%" alt="lapis lazulli" src="./docs/images/lapisLazuliDark.png" />
+
+### 05: Amethyst
+
+Maybe the 3rd or 4th variant I worked on. Lots of purple themes out there, but a monochromatic one?
+<img width="100%" alt="amethyst" src="./docs/images/amethystDark.png" />
+
+### 06: Jade
+
+This is a greener hue, closer to those early monitors I aluded to when describing the gold variant. I really like how it looks!
+<img width="100%" alt="jade" src="./docs/images/jadeDark.png" />
+
+### 07:Fire Opal
+
+This is a tricky one. I am not sure anyone would NOT be thinking "this is screaming errors at me all the time", but I decided to give it a shot. ERRORs are white in this variant, BTW.
+<img width="100%" alt="fire opal" src="./docs/images/fireOpalDark.png" />
+
+### Light
+
+I thought having a light version for the different variants would be nice, so I spent some time creating those as well.
+
+They are essentially the "inverse" of the dark themes, with a few manual changes I will be making before releasing a "stable" theme.
+
+### l-00: Obsidian Light
+
+<img width="100%" alt="obsidian light" src="./docs/images/obsidianLight.png" />
+
+### l-01: Gold Light
+
+<img width="100%" alt="gold light" src="./docs/images/goldLight.png" />
+
+### l-02: Turquoise Light
+
+<img width="100%" alt="turquoise light" src="./docs/images/turquoiseLight.png" />
+
+### l-03: Quartz Light
+
+<img width="100%" alt="quartz light" src="./docs/images/quartzLight.png" />
+
+### l-04: Lapis Lazuli Light
+
+<img width="100%" alt="lapis lazuli light" src="./docs/images/lapisLazuliLight.png" />
+
+### l-05: Amethyst Light
+
+<img width="100%" alt="amethyst light" src="./docs/images/amethystLight.png" />
+
+### l-06: Jade Light
+
+<img width="100%" alt="jade light" src="./docs/images/jadeLight.png" />
+
+### l-07: Fire Opal Light
+
+<img width="100%" alt="fire opal light" src="./docs/images/fireOpalLight.png" />
+
+
+## The technical stuff
+
+**This repo**: the packaging and release tooling for the [Tlapalli Zed extension](https://github.com/ackzell/tlapalli-zed-theme). Theme colors are maintained upstream in [tlapalli-vscode-theme](https://github.com/ackzell/tlapalli-vscode-theme).
 
 ## Structure
 
